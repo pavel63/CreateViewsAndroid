@@ -104,13 +104,10 @@ public class MainActivity extends AppCompatActivity {
             canvas.drawCircle(700,1100,200,paint);
 
 
-
-
             paint.setShader(createGradientShader());
             paint.setStyle(Paint.Style.STROKE);
             paint.setStrokeWidth(20);
             canvas.drawCircle(200,1200,200,paint);
-
 
         }
 
